@@ -1,0 +1,130 @@
+@media(max-width:1340px){
+    .headr{
+        /* background-color: black; */
+    }
+    .fix-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    .header-right {
+        float: right;
+        width: 53%;
+        margin-right: 60px;
+    }
+
+}
+@media(max-width:1145px){
+
+    .header-right ul {
+        text-align: center;
+    }
+    .header-right {
+     
+        width: 100%;
+        margin-right: 0;
+    }
+    .header-left {
+        float: left;
+        width: 100%;
+        
+    }
+    .header-left h2 {
+        text-align: center;
+    }
+    .header-right ul li a {
+        
+        border-right:none;
+      
+    }
+  
+}
+@media(max-width:1100px) {
+    .header-right {
+
+        margin-top: 20px;
+    }
+    .header-right ul li a {
+        font-size: 18px;
+      
+    }
+    .header-left h2 {
+     
+        margin-top: 5px;
+       
+    }
+   
+}
+/* Banner-Section Strat */
+@media(max-width:1100px){
+    .banner-caption h1 {
+        padding: 7px 12px;
+        margin-bottom: 5px;
+    }
+}
+@media(max-width:1145px){
+    .banner {
+        padding: 120px 0;
+    }
+   
+}
+@media(max-width:1145px){
+    .banner-caption h1 {
+
+        font-size: 30px;
+    }
+
+}
+
+/* Banner-Section  End */
+
+
+/* Service Section Strat */
+@media(max-width:1100px){
+    .secvice-iteam {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+    }
+}
+@media(max-width:1000px){
+    .secvice-iteam {
+        width: 100%;
+        padding: 10px;
+        box-sizing: border-box;
+        margin-bottom: 10px;
+        border: 1px solid #ddd;
+    }
+}
+/* Service Section End */
+
+
+/* About Section Strat */
+@media(max-width:1100px){
+    .blog-iteam {
+        float: left;
+        width: 100%;
+    }
+
+}
+@media(max-width:1000px){
+    .blog-iteam {
+        float: left;
+        width: 100%;
+    }
+
+}
+
+/* About Section End */
+
+/* Contact Section Strat */
+@media(max-width:930px){
+    .icon-iteam ul {
+        width: 100%;
+    }
+}
+/* Contact Section End */
